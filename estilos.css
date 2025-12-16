@@ -97,7 +97,7 @@ h1, h2 {
 /* --- HERO --- */
 
 .hero {
-    background: url('complementos/imagen-principal.png') center/cover no-repeat;
+    background: url('imagen-principal.png') center/cover no-repeat;
     height: 75vh;
     display: flex;
     justify-content: center;
@@ -243,7 +243,7 @@ main {
 
 .seccion-navidena {
     /* FONDO DE IMAGEN NAVIDEÑA (puedes reemplazar la URL) */
-    background-image: url('complementos/imagen-navidad.png'); 
+    background-image: url('imagen-navidad.png'); 
     background-size: cover;
     background-position: center;
     position: relative; /* Necesario para el overlay */
@@ -299,7 +299,7 @@ main {
 /* --- ESTILO DEL JUEGO (Sobrepuesto por estilojuego.css, solo estilos genéricos) --- */
 .game-section {
     position: relative; /* Necesario para que el ::before funcione */
-    background-image: url("complementos/imagen-parrilla.png");
+    background-image: url("imagen-parrilla.png");
     background-size: cover;        
     background-position: center;   
     background-repeat: no-repeat;  
@@ -346,7 +346,7 @@ main {
 #target-item {
     width: 60px;
     height: 60px;
-    background: url('complementos/burguer.png') center/cover no-repeat;
+    background: url('burguer.png') center/cover no-repeat;
     position: absolute;
     cursor: pointer;
     display: none; /* Oculto por defecto */
